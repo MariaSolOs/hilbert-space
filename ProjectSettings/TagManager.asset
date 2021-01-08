@@ -16,7 +16,7 @@ TagManager:
   - Background
   - Hilbert
   - Foreground
-  - 
+  - Symbols
   - 
   - 
   - 
@@ -43,6 +43,9 @@ TagManager:
     locked: 0
   - name: Background
     uniqueID: 1510322407
+    locked: 0
+  - name: Symbols
+    uniqueID: 427564461
     locked: 0
   - name: Foreground
     uniqueID: 2011842429

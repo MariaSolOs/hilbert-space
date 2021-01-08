@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class Portal : MonoBehaviour
 {
-    private GameController gameController = default;
+    private LevelController levelController = default;
     private void Start()
     {
-        gameController = FindObjectOfType<GameController>();
+        levelController = FindObjectOfType<LevelController>();
     }
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
         if( collider.gameObject.name == "Hilbert" )
         {
-            gameController.LoadGame();
+            levelController.LoadGame();
         }
     }
 }
