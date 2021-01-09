@@ -5,13 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class LevelController : MonoBehaviour
 {
-    public void LoadMainMenu()
+    public void LoadMainMenuScene()
     {
-        SceneManager.LoadScene("Main Menu");
+        SceneManager.LoadScene("Main Menu Scene");
     }
-    
-    public void LoadGame()
+
+    public void LoadGameScene()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("Game Scene");
+    }
+
+    public void LoadGameOverScene()
+    {
+        SceneManager.LoadScene("Game Over Scene");
     }
 }

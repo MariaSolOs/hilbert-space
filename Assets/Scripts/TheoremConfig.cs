@@ -1,19 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-[CreateAssetMenu(menuName = "Theorem Configuration")]
+[CreateAssetMenu(menuName = "Scriptable Objects/Theorem Configuration")]
 public class TheoremConfig : ScriptableObject
 {
-    [SerializeField] GameObject theoremImage;
+    [SerializeField] Image theoremImage = default;
+    [SerializeField] GameObject[] theoremSymbols = default;
 
-    void Start()
+    public Image GetTheoremImage()
     {
-        
+        return theoremImage;
     }
 
-    void Update()
+    public GameObject[] GetTheoremSymbols()
     {
-        
+        return theoremSymbols;
     }
 }

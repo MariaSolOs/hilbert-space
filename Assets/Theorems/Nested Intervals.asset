@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40e7061c3df9c4077a4797f87acce74a, type: 3}
+  m_Name: Nested Intervals
+  m_EditorClassIdentifier: 
+  theoremImage: {fileID: 2272560826666203218, guid: 43df3859475934277aea90d71ca27dea,
+    type: 3}
+  theoremSymbols:
+  - {fileID: 4749456752403790060, guid: fcdda5d47a24a4794ae3fb9ac0842023, type: 3}
+  - {fileID: 4749456752403790060, guid: fcdda5d47a24a4794ae3fb9ac0842023, type: 3}
+  - {fileID: 2917459640743737998, guid: 3414a278cc3ec4cd98ffee6c266ed157, type: 3}

@@ -14,7 +14,7 @@ public class Portal : MonoBehaviour
     {
         if( collider.gameObject.name == "Hilbert" )
         {
-            levelController.LoadGame();
+            levelController.LoadGameScene();
         }
     }
 }
