@@ -146,6 +146,8 @@ MonoBehaviour:
   symbols:
   - {fileID: 4749456752403790060, guid: fcdda5d47a24a4794ae3fb9ac0842023, type: 3}
   - {fileID: 2917459640743737998, guid: 3414a278cc3ec4cd98ffee6c266ed157, type: 3}
+  - {fileID: 4782276072710391430, guid: 2e75739b1be9c4e599aa301fc947652f, type: 3}
+  - {fileID: 8021041056708824383, guid: 918a9194caa9c459b890a6d6e6542ac3, type: 3}
   symbolGravityScale: 0.1
   minTimeBetweenSymbols: 1
   maxTimeBetweenSymbols: 4

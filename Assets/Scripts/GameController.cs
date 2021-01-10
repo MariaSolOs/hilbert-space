@@ -8,7 +8,7 @@ public class GameController : MonoBehaviour
     [SerializeField] GameObject winLabel = default;
     [SerializeField] GameObject loseLabel = default;
     [SerializeField] int wrongCollisionsLeft = 3;
-    [SerializeField] float timeToWaitAfterGame = 3f;
+    [SerializeField] float timeToWaitAfterGame = 1.5f;
 
     [SerializeField] TheoremConfig[] theorems = default;
 
@@ -52,6 +52,10 @@ public class GameController : MonoBehaviour
         else
         {
             wrongCollisionsLeft--;
+            if( wrongCollisionsLeft > 0 )
+            {
+                StartCoroutine(hilbert.Speak());
+            }
         }
 
         if( wrongCollisionsLeft == 0 )

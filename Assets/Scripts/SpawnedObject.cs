@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Symbol : MonoBehaviour
+public class SpawnedObject : MonoBehaviour
 {
     private Rigidbody2D rigidBody;
     private GameController gameController;
