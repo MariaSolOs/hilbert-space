@@ -12,8 +12,8 @@ public class SymbolSpawner : MonoBehaviour
     [SerializeField][Range(0f, 10f)] float maxTimeBetweenSymbols = 4f;
 
     // Bounds for initializing symbol game objects
-    private const float leftSpawningBound = -11f;
-    private const float rightSpawningBound = 11f;
+    private const float leftSpawningBound = -8.5f;
+    private const float rightSpawningBound = 8.5f;
     private const float topSpawningBound = 8f;
 
     private GameController gameController = default;

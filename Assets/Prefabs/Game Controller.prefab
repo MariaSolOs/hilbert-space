@@ -43,6 +43,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af733dd90986c4c86b1c28ccb5532ebb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  winLabel: {fileID: 0}
+  loseLabel: {fileID: 0}
+  wrongCollisionsLeft: 3
+  timeToWaitAfterGame: 3
   theorems:
   - {fileID: 11400000, guid: 758b97261f10a4a0ab7aa37871b242c2, type: 2}
   - {fileID: 11400000, guid: 85c439ebe5f994c49b36e18e9a5e214a, type: 2}

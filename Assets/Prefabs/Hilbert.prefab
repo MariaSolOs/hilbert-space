@@ -19,7 +19,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &183581459
 RectTransform:
   m_ObjectHideFlags: 0
@@ -31,15 +31,15 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 95}
   m_LocalScale: {x: 0.019283747, y: 0.019283747, z: 0.019283747}
   m_Children:
-  - {fileID: 1393070280}
-  - {fileID: 1491358786}
+  - {fileID: 829006984}
+  - {fileID: 1898622896}
   m_Father: {fileID: 1805751751075780672}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 9.05, y: 5.92}
-  m_SizeDelta: {x: 1291, y: 726}
+  m_AnchoredPosition: {x: 1.09, y: 2.409}
+  m_SizeDelta: {x: 164.70203, y: 78.56273}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &183581462
 Canvas:
@@ -113,8 +113,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebfb33b4e6a3748aa82192e8c3abb4ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speechBubbleDisplayTime: 1.5
---- !u!1 &1393070279
+  speechBubbleDisplayTime: 1
+--- !u!1 &829006983
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -122,9 +122,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1393070280}
-  - component: {fileID: 1393070282}
-  - component: {fileID: 1393070281}
+  - component: {fileID: 829006984}
+  - component: {fileID: 829006986}
+  - component: {fileID: 829006985}
   m_Layer: 9
   m_Name: Speech Bubble Panel
   m_TagString: Untagged
@@ -132,13 +132,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &1393070280
+--- !u!224 &829006984
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1393070279}
+  m_GameObject: {fileID: 829006983}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -148,24 +148,24 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -408, y: -162.7}
-  m_SizeDelta: {x: -1130.2913, y: -637.12244}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &1393070282
+--- !u!222 &829006986
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1393070279}
+  m_GameObject: {fileID: 829006983}
   m_CullTransparentMesh: 0
---- !u!114 &1393070281
+--- !u!114 &829006985
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1393070279}
+  m_GameObject: {fileID: 829006983}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -188,7 +188,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!1 &1491358785
+--- !u!1 &1898622895
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -196,9 +196,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1491358786}
-  - component: {fileID: 1491358788}
-  - component: {fileID: 1491358787}
+  - component: {fileID: 1898622896}
+  - component: {fileID: 1898622898}
+  - component: {fileID: 1898622897}
   m_Layer: 9
   m_Name: Speech Bubble Text
   m_TagString: Untagged
@@ -206,13 +206,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &1491358786
+--- !u!224 &1898622896
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1491358785}
+  m_GameObject: {fileID: 1898622895}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -222,24 +222,24 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -408, y: -162.7}
-  m_SizeDelta: {x: 160.7049, y: 88.87742}
+  m_AnchoredPosition: {x: -0.0000047684, y: 17.63}
+  m_SizeDelta: {x: 164.70204, y: 35.265038}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &1491358788
+--- !u!222 &1898622898
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1491358785}
+  m_GameObject: {fileID: 1898622895}
   m_CullTransparentMesh: 0
---- !u!114 &1491358787
+--- !u!114 &1898622897
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1491358785}
+  m_GameObject: {fileID: 1898622895}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -316,7 +316,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 1.5263858, z: 0, w: 40.224915}
+  m_margin: {x: 0, y: 0.30810308, z: 0, w: -0.6654038}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -347,7 +347,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1805751749077134965}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.4, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1805751751075780672}
@@ -506,6 +506,6 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.016841412, y: 0.9431591}
-  m_Size: {x: 0.8422003, y: 1.8670712}
+  m_Offset: {x: -0.016841412, y: 0.9354274}
+  m_Size: {x: 0.8422003, y: 1.7873836}
   m_Direction: 0
