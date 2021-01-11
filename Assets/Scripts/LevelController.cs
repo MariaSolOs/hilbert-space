@@ -19,4 +19,14 @@ public class LevelController : MonoBehaviour
     {
         SceneManager.LoadScene("Game Over Scene");
     }
+
+    public void LoadInstructionScene()
+    {
+        SceneManager.LoadScene("Instructions Scene");
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }

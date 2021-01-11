@@ -14,6 +14,7 @@ public class GameController : MonoBehaviour
 
     private SymbolSpawner symbolSpawner = default;
     private Hilbert hilbert = default;
+    private SpeechBubbleController speechController = default;
     private LevelController levelController = default;
 
     private GameObject[] theoremSymbols = default;
@@ -29,6 +30,7 @@ public class GameController : MonoBehaviour
         theoremSymbols = theorem.GetTheoremSymbols();
 
         hilbert = FindObjectOfType<Hilbert>();
+        speechController = FindObjectOfType<SpeechBubbleController>();
         levelController = FindObjectOfType<LevelController>();
 
         symbolSpawner = FindObjectOfType<SymbolSpawner>();
@@ -54,7 +56,7 @@ public class GameController : MonoBehaviour
             wrongCollisionsLeft--;
             if( wrongCollisionsLeft > 0 )
             {
-                StartCoroutine(hilbert.Speak());
+                StartCoroutine(speechController.ShowSpeechBubble());
             }
         }
 
